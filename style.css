@@ -1,0 +1,70 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family:sans-serif;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(images/mathematics-equations-science-3d-wallpaper-preview.jpg) ;
+}
+input{
+  margin: 2px;
+
+}
+
+input[type=text]{
+  width: calc(100% - 8px);
+  height: 40px;
+
+}
+
+input[type=button] {
+  width: 100px;
+  height: 50px;
+  transition: ease 0.7s;
+  cursor: pointer;
+ 
+}
+
+div#calculadora div input{
+  box-shadow: 0 0 20px black;
+ }
+
+ div#calculadora div{
+   display: flex;
+ }
+
+div#calculadora div input:nth-child(4){
+  background: rgb(226, 224, 224);
+}
+div#quarta input:nth-child(1), div#calculadora{
+  border-bottom-left-radius: 35px;
+  
+}
+div#quarta input:nth-child(1){
+  background: crimson;
+  
+}
+
+div#quarta input:nth-child(3){
+  background: rgb(20, 100, 220);
+}
+div#quarta input:nth-child(4), div#calculadora{
+  border-bottom-right-radius: 35px;
+}
+
+input[type=button]:hover{
+filter: brightness(50%);
+}
+
+input[type=button]:active{
+  transform: scale(1.1);
+}
+
